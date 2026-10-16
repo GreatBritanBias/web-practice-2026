@@ -1,0 +1,40 @@
+
+        header {
+            display:flex;
+            justify-content: space-between;
+            background:radial-gradient(white,brown);
+            position:sticky;
+            top:0;
+            z-index:1;
+        }
+        #banner{
+            background:linear-gradient(white, aqua);
+            display:flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .menu{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        li{
+            position:absolute;
+            display:inline-block;
+            position:relative;
+            background-color: pink;
+        }
+        ul {
+            display:grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+        .badge{
+            background-color: aqua;
+            position: absolute;
+            inset: 1 0 0 0;
+        }
+        .price{
+            display:flex;
+            justify-content: space-between;
+        }
